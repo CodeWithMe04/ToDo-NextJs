@@ -17,6 +17,8 @@ export default function Home() {
         }})
         let response = await a.json()
         console.log(response)
+
+        settodos({title: "", desc:""})
   }
   return (
     <>
